@@ -1,27 +1,64 @@
-.pStyle {
-    color: chartreuse;
-    font-size: 16px;
-    font-family:'Gill Sans MT', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-}
-body {
-    background-color: coral;
-    background-image: url("assets/images/dog.jpg");
-    background-size: cover;  
+body { 
+    
+    font-family: "Roboto Slab", sans-serif;
+    padding-bottom: 120px;
 }
 
-
-#firstbox {
-    width: 200px;
-    height: 200px;
-    background: cornsilk;
-    border: dashed;
-    padding: 5px;
+footer {
+    padding:40px;
+    background: #34af95;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 100px;
+    text-align: center;
+    color:white;
 }
-#secondbox {
-    width: 200px;
-    height: 200px;
-    background: cornsilk;
-    border: dashed;
-    padding: 5px
 
+/* navigation custom styling */
+.customNavBg {
+    background-color: #2d00a9!important;
+}
+
+.customNavBg span.navbar-toggler-icon > i.fas.fa-bars {
+    color:white;
+    font-size: 30px;
+}
+
+.customNavBg > a.navbar-brand:hover {
+    color: white
+}
+
+.customNavBg > li {
+    margin-right: 20px;
+}
+
+/* FontAwesome hamburger icon styling */
+/* .customNavBg .navbar-toggler-icon > i.fa-bars {
+    color: white;
+    font-size: 30px;
+} */
+
+.customNavBg li.nav-item.active > a {
+    color: orange;
+    font-weight: bold;
+}
+.customNavBg  a {
+    color: white;
+}
+.customNavBg li > a:hover {
+    color: orange;
+    text-decoration: underline;
+    font-weight: bold;
+    transform: scale(1.2);
+}
+.customNavBg a.dropdown-item {
+    color: #34af95;
+    background-color: transparent;
+}
+
+.customNavBg a.dropdown-item:hover {
+    color: rgb(0, 217, 255);
+    text-decoration: underline;
 }
