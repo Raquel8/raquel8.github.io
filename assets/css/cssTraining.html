@@ -1,14 +1,112 @@
+<!DOCTYPE html>
+<html>
 
 <head>
-    <a href="index.html">
-        <h3 class="hover-state">I want to go home</h3>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>CSS training page</title>
+    <link rel="stylesheet" href="cssTraining.css" type="text/css" />
+    <link rel="stylesheet" href="defaultStyle.css" type="text/css" />
+    <!-- bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/938a18ead6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- BS navbar -->
+    <nav class="navbar navbar-expand-lg customNavBg">
+        <a class="navbar-brand" href="index.html"><b>VCD 5D</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09"
+            aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+                <i class="fas fa-bars"></i>
+            </span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample09">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="cssTraining.html">Css Traning</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="floatPositionActivity.html">Float Activity</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown09" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Contact</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown09">
+                        <a class="dropdown-item" href="mailto: lariosr29@homail.comt">Email</a>
+                        <a class="dropdown-item" href="" target="_blank">Github page</a>
+                        <a class="dropdown-item" href="https://vcd5dCpp.github.io" target="_blank">VCD 5d website</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-md-0">
+                <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+            </form>
+        </div>
+    </nav>
+
+    <!-- CSS background images and multi-classes -->
+    <div class="section furniture-image">
+        <h5 class="text-background">This is h5 tag - see the different?</h5>
+    </div>
+
+    <div class="section panda-image">
+        <span class="text-background">This is panda </span>
+    </div>
+
+    <div class="section hide">
+        <span class="text-background">This is blank div box with no image backgroud</span>
+    </div>
+
+    <div class="section different cupcake-image">
+        <span class="text-background">This is the cupcake</span>
+    </div>
+
+    <div class="section different fruit-image hover-state">
+        <span class="text-background">This is the fruit </span>
+    </div>
+
+    <h5 class="highightText">WARRIOR MAGE</h5>
+
+    <h5 class="hover-state">ROGUE WARRIOR</h5>
+
+    <h5 class="bigger-size text-background">MAGE ROGUE</h5>
+
+    <h5 class="bigger-size">ROGUE <span class="highightText">WARRIOR</span> MAGE</h5>
+
+    <h2>h2 to by itself no under any parent</h2>
+
+    <div class="row">
+        <div id="goToPage" class="col-sm col-md-4 firstDiv align-middle">
+            <a class="linkStyle" href="index.html">
+                <p>go back homepage</p>
+            </a>
+        </div>
+
+        <div id="goToPage" class="col-sm-9 col-md-4 secondDiv">
+            <a class="linkStyle" href="contact.html">
+                <p>go to contact page</p>
+            </a>
+        </div>
+
         <div id="goToPage" class="col-sm col-md-4 thirdDiv">
             <a class="linkStyle" href="floatPositionActivity.html">
                 <p>go to float position page</p>
             </a>
         </div>
-    </a>
-</head>
+    </div>
+
+
+
+    <!-- positioning demo -->
+    <div class="wrapper">
         <section class="container">
             <h1>Hello Class!</h1>
             <p>
@@ -46,32 +144,165 @@
                 tenderloin pancetta. Picanha ham hock cow, short loin fatback burgdoggen kevin shankle sausage shoulder
                 pork chop turducken tri-tip pastrami ball tip.
             </p>
-            <div class="fixed">
-                <p>This is a fixed div.</p>
-            </div>
         </section>
     </div>
-    <!--BOOTSTRAP GRID -->
-    <div class="container"> 
+
+    <!-- BOOTSTRAP GRID -->
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-6 col-md-4 firstDIv">
-                first collumn
+            <div class="col-3 col-sm-1 col-md-4 firstDiv">
+                fisrst collumn
             </div>
-            <div class="col-6 col-md-4 secondDiv">
+            <div class="col-4 col-sm-3 col-md-4 secondDiv">
                 second collumn
             </div>
-            <div class="col-6 col-md-4 thirDiv">
+            <div class="col-5 col-sm-8 col-md-4 thirdDiv">
                 third collumn
             </div>
         </div>
-    </div> 
-</div>
+    </div>
 
-   <!-- boostrap script-->
-   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-   </script>
-   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-   </script>
-   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-   </script>
-   
+    <!-- bootstrap grid exercise -->
+    <div class="container-fluid gridExercise">
+        <h2>bootstrap grid exercise</h2>
+        <!-- first row -->
+        <p>first row</p>
+        <div class="row">
+            <div class="col-3 firstDiv">first div</div>
+            <div class="col-3 secondDiv">second div</div>
+            <div class="col-3 thirdDiv">third div</div>
+            <div class="col-3 fourthDiv">fourth div</div>
+        </div>
+        <!-- second row -->
+        <p>second row</p>
+        <div class="row">
+            <div class="col-12 col-md-2 col-lg-4 firstDiv pChildTarget">
+                <p>first div</p>
+            </div>
+            <div class="col-12 col-md-7 col-lg-6  secondDiv pChildTarget">
+                <p>second div</p>
+            </div>
+            <div class="col-12 col-md-3 col-lg-2 thirdDiv">
+                <p>third div</p>
+            </div>
+        </div>
+        <!-- third row -->
+        <p>thrid row</p>
+        <div class="row">
+            <div class="col-12 col-md-3 col-lg-5 fourthDiv pChildTarget">
+                <p>div</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Bootstrap Vertical aligment -->
+    <div class="container gridExercise">
+        <h2>bootstrap Vertical aligment</h2>
+        <div class="row align-items-start parentTarget">
+            <div class="col">
+                One of three columns
+            </div>
+            <div class="col">
+                One of three columns
+            </div>
+            <div class="col">
+                One of three columns
+            </div>
+        </div>
+        <div class="row align-items-center parentTarget">
+            <div class="col">
+                One of three columns
+            </div>
+            <div class="col">
+                One of three columns
+            </div>
+            <div class="col">
+                One of three columns
+            </div>
+        </div>
+        <div class="row align-items-end parentTarget">
+            <div class="col">
+                One of three columns
+            </div>
+            <div class="col">
+                One of three columns
+            </div>
+            <div class="col">
+                One of three columns
+            </div>
+        </div>
+    </div>
+
+    <!-- BS horizontal alignment -->
+    <div class="container-fluid gridExercise">
+        <h2>BOOTSTRAP HORIZONTAL ALIGMENT</h2>
+        <div class="row justify-content-start height100">
+            <div class="col-4">
+                One of two columns
+            </div>
+            <div class="col-4">
+                One of two columns
+            </div>
+        </div>
+        <div class="row justify-content-center height100">
+            <div class="col-4">
+                One of two columns
+            </div>
+            <div class="col-4">
+                One of two columns
+            </div>
+        </div>
+        <div class="row justify-content-end height100">
+            <div class="col-4">
+                One of two columns
+            </div>
+            <div class="col-4">
+                One of two columns
+            </div>
+        </div>
+        <div class="row justify-content-around height100">
+            <div class="col-4">
+                One of two columns
+            </div>
+            <div class="col-4">
+                One of two columns
+            </div>
+        </div>
+        <div class="row justify-content-between height100">
+            <div class="col-4">
+                One of two columns
+            </div>
+            <div class="col-4">
+                One of two columns
+            </div>
+        </div>
+    </div>
+
+    <!-- flex-display and items align -->
+    <div class="flex-display">
+        <p>FELEX DISPLAY AND ITEMS ALIGN</p>
+        <img src="assets/images/huskies.jpg" width="200" height="auto">
+    </div>
+
+    <!-- fixed footer -->
+    <a href="index.html">
+        <footer>
+            <p>This is sticky footer</p>
+        </footer>
+    </a>
+
+
+    <!-- boostrap scripts -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

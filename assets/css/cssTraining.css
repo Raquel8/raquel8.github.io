@@ -1,0 +1,199 @@
+.section {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    outline: 1px solid red;
+    margin-top: 15px;
+    height: 200px;
+    background-color: gray;
+    color: white;
+}
+
+.different {
+    background-color: green;
+    outline: 5px dashed blue;
+}
+
+.bigger-size {
+    font-size: 30px;
+    color: green;
+}
+
+h5 {
+    color: red;
+}
+
+.whiteText {
+    color: white;
+}
+
+.blackText {
+    color: black;
+}
+
+.text-background {
+    background-color: #f18973;
+}
+
+.furniture-image {
+    background-image: url("../images/furniture.jpg");
+}
+
+.cupcake-image {
+    background-image: url("../images/cupcake.jpg");
+}
+
+.panda-image {
+    background-image: url("/assets/images/fire.JPG");
+}
+
+.fruit-image {
+    background-image: url("/assets/images/dog.jpg");
+}
+
+.hide {
+    display: none;
+}
+
+.highightText {
+    color: orange;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+
+
+/* positioning example */
+.fixed {
+    left: 0;
+    padding: 40px;
+    margin: 0;
+    text-align: center;
+    background: red;
+    position: fixed;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+}
+
+.wrapper {
+    width: 600px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.relative {
+    height: 200px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    background: #eee;
+}
+
+.absolute {
+    right: 30px;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    background: #999;
+    position: absolute;
+}
+
+/* Bootstrap grid example */
+div#goToPage {
+    text-align: center;
+    padding: 20px 0;
+    height: 100px;
+}
+
+div.firstDiv {
+    height: 200px;
+    background-color: chartreuse;
+}
+
+div.secondDiv {
+    height: 200px;
+    background-color: pink;
+}
+
+div.thirdDiv {
+    height: 200px;
+    background-color: blue;
+}
+
+div.fourthDiv {
+    height: 200px;
+    background-color: red;
+}
+
+/* BS GRID + ALIGMENT EXERCISE */
+.gridExercise {
+    background-color: lightseagreen;
+    margin: 30px 0;
+}
+
+.gridExercise p {
+    color: white;
+    font-size: 15px;
+    margin: 20px 0;
+}
+
+.gridExercise h2 {
+    color: white;
+    text-align: center;
+    border-bottom: 3px dotted  black;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+.pChildTarget  {
+   align-items: center;
+   display: flex;
+   justify-content: center;
+}
+
+.pChildTarget p {
+    color: lightgoldenrodyellow;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.parentTarget {
+    height: 200px;
+    background-color: lightgrey;
+    margin: 10px 0;
+}
+
+.parentTarget div {
+    height: 50px;
+    background-color: lightskyblue;
+    border: 1px solid black;
+}
+
+.height100 {
+    height: 100px;
+    background-color: lightpink;
+    margin: 20px 0;
+}
+
+.height100 div {
+    height: 50px;
+    background-color: lightgreen;
+    border: 1px solid gray;
+}
+
+/* FELEX DISPLAY AND ITEMS ALIGN */
+.flex-display {
+    display: flex;
+    background-color: lightsalmon;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-display p {
+    margin: 0;
+    text-align: center;
+}
