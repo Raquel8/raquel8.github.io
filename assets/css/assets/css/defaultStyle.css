@@ -1,12 +1,11 @@
-body { 
-    
+body {
     font-family: "Roboto Slab", sans-serif;
     padding-bottom: 120px;
 }
 
 footer {
     padding:40px;
-    background: #34af95;
+    background: black;
     position: fixed;
     width: 100%;
     bottom: 0;
@@ -16,9 +15,15 @@ footer {
     color:white;
 }
 
+.height200 {
+    height: 200px;
+    background-color: lightgrey;
+    margin: 20px 0;
+}
+
 /* navigation custom styling */
 .customNavBg {
-    background-color: #2d00a9!important;
+    background-color: black!important;
 }
 
 .customNavBg span.navbar-toggler-icon > i.fas.fa-bars {
@@ -44,21 +49,67 @@ footer {
     color: orange;
     font-weight: bold;
 }
+
 .customNavBg  a {
     color: white;
 }
+
 .customNavBg li > a:hover {
     color: orange;
     text-decoration: underline;
     font-weight: bold;
     transform: scale(1.2);
 }
+
 .customNavBg a.dropdown-item {
     color: #34af95;
     background-color: transparent;
 }
 
 .customNavBg a.dropdown-item:hover {
-    color: rgb(0, 217, 255);
+    color: orange;
     text-decoration: underline;
 }
+
+/* section title styling */
+.sectionTitle {
+    text-align: center;
+    margin: 30px 0 0 0;
+}
+
+.sectionTitle h2 {
+    color: #34af95;
+    font-weight: bold;
+}
+
+.sectionTitle hr {
+    border: 2px solid #34af95;
+    width: 30%;
+}
+
+/* tool tip */
+.customToolTip > div {
+    display: flex;
+    justify-content: center;
+}
+.customToolTip a.btn span i.fas.fa-chevron-circle-up {
+    color: orange;
+    font-size: 25px;
+}
+
+.customToolTip a.btn span i.fas.fa-chevron-circle-up:hover {
+    color: #34af95
+}
+
+
+/* ==== media queries ===== */
+@media only screen and (max-width: 768px) {
+    .customNavBg li > a:hover {
+        transform: scale(1)
+    }
+
+    .circleImage {
+        border-color: #34af95;
+    }
+}
+
