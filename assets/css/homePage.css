@@ -2,16 +2,7 @@ body {
     background-color: white;
     /* background-image: url("../images/huskies.jpg"); */
     background-size: cover;
-}
-
-.circleImage {
-    border-radius: 50%;
-    border-width: 13px;
-    border-color: orange;
-    border-style: dotted;
-}
-
-
+    {}
 /* pseudo class exercise */
 a.tesla-link {
     color: green;
@@ -105,11 +96,11 @@ a.btn.projectCardBtn {
 a.btn.projectCardBtn:hover {
     background-color: transparent;
     border: 1px solid orange;
-    color: orange
+    color: orang
 }
 
 .projectGallerySection .card-title {
-    color:#34af95;
+    color:orange;
     text-decoration: underline;
     text-transform: capitalize;
     font-weight: bold;

@@ -28,13 +28,13 @@
             </span>
         </button>
 
-        <div class="collapse navbar-collapse" id="mycustomNav">
+<div class="collapse navbar-collapse" id="mycustomNav">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="/assets/css/index.html">Home</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="cssTraining.html">Css Traning</a>
+                    <a class="nav-link" href="/assets/css/cssTraining.html">Css Traning</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/assets/css/cssTraining.html">Float Activity</a>
@@ -68,7 +68,7 @@
         <div class="row align-items-center customDescriptionSection">
             <div class="col-12 col-md-4 avataCol justify-content-center">
                 <a href="contact.html">
-                    <img class="circleImage" src="/assets/images/flowersred.jpg" height="auto" width="200">
+                    <img class="circleImage" src="" height="auto" width="200">
                 </a>
             </div>
             <div class="col-12 col-md-4 biotTxt">
@@ -80,7 +80,7 @@
             </div>
             <div class="col-12 col-md-4 avataCol justify-content-center">
                 <a href="contact.html">
-                    <img class="circleImage" src="/assets/images/flowersred.jpg" height="auto" width="200">
+                    <img class="circleImage" src="/assets/images/flowersred.jpg height="auto" width="200">
                 </a>
             </div>
         </div>
@@ -363,6 +363,10 @@
         });
     </script>
 
+</body>
+
+</html>
+        
 </body>
 
 </html>
