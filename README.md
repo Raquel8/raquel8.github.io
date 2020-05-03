@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html>
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -13,7 +10,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/938a18ead6.js" crossorigin="anonymous"></script>
-
 </head>
 
 <body id="topPage" data-spy="scroll" data-offset="0" data-target="topPage">
