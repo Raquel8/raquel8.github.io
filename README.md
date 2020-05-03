@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,6 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/938a18ead6.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body id="topPage" data-spy="scroll" data-offset="0" data-target="topPage">
@@ -64,7 +68,7 @@
         <div class="row align-items-center customDescriptionSection">
             <div class="col-12 col-md-4 avataCol justify-content-center">
                 <a href="contact.html">
-                    <img class="circleImage" src="assets/images/avata.jpg" height="auto" width="200">
+                    <img class="circleImage" src="/assets/images/flower2.JPG.jpg" height="auto" width="200">
                 </a>
             </div>
             <div class="col-12 col-md-4 biotTxt">
@@ -88,13 +92,13 @@
         </section>
 
         <!-- projects card section  -->
-        <!-- cupcake project -->
+        <!-- Phothography project -->
         <div class="row justify-content-center projectGallerySection">
             <div class="col-sm-6 col-md-4 col-lg-3">
                 <div class="card">
-                    <img src="assets/images/cupcake.jpg" class="card-img-top" alt="...">
+                    <img src="/assets/images/dog.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Cupcake Project</h5>
+                        <h5 class="card-title">Photohgraphy Project</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
                             the
                             card's content.</p>
