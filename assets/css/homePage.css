@@ -5,11 +5,10 @@ body {
 }
 
 .circleImage {
-    border-radius: 7
-    0%;
-    border-width: 20px;
+    border-radius: 50%;
+    border-width: 12px;
     border-color: orange;
-    border-style: dotted;
+    border-style: solid;
 }
 
 
@@ -131,12 +130,12 @@ a.btn.projectCardBtn:hover {
 }
 
 .customProjectModal button.close > span:hover {
-    color: #34af95;
+    color: purple;
 }
 
 /* Project Carousels */
 .customProjectCarousel a span:first-child i {
-    color: #34af95;
+    color: purple;
     font-size: 40px;
 }
 
