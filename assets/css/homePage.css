@@ -1,12 +1,12 @@
 body {
-    background-color: white;
+    background-color: linear-gradient(90deg, rgba(128, 66, 200, 0.548) 0%, rgba(47, 81, 101, 0.541) 31%, rgba(54, 95, 115, 0.486) 89%, rgba(101, 163, 77, 0.657) 100%);
     /* background-image: url("../images/huskies.jpg"); */
     background-size: cover;
 }
 
 .circleImage {
     border-radius: 50%;
-    border-width: 12px;
+    border-width: 4px;
     border-color: orange;
     border-style: solid;
 }
