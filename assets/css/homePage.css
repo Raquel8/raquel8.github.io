@@ -6,8 +6,8 @@ body {
 }
 
 .circleImage {
-    border-radius: 100%;
-    border-color: orange;
+    border-radius: 120%;
+    border-color: black;
     border-style: solid;
 }
 
