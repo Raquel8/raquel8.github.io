@@ -87,11 +87,12 @@ a.tesla-link:active {
 }
 
 .projectGallerySection div.card {
+    background-color: rgba(185, 114, 0, 0.383) !important;
     margin-bottom: 30px;
 }
 
 .projectGallerySection img.card-img-top {
-    background-color: rgba(154, 90, 165, 0.383) !important;
+    background-color: rgba(185, 114, 0, 0.383) !important;
     height: 200px;
     width: 100%;
     
