@@ -31,13 +31,16 @@
         <div class="collapse navbar-collapse" id="mycustomNav">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="/assets/css/index.html">Home</a>
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item ">
                     <a class="nav-link" href="cssTraining.html">Css Traning</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/assets/css/cssTraining.html">Float Activity</a>
+                    <a class="nav-link" href="floatPositionActivity.html">Float Activity</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="bsGridPractice.html">BS Grid Practice</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"

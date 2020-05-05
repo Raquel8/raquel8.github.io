@@ -1,0 +1,97 @@
+/* hero banner */
+.banner {
+    background-image: url("../images/beach.jpg");
+    padding: 50px 0 100px 50px;
+    margin: 20px 0;
+}
+
+
+/* ========== contact section ========== */
+.contactSection {
+    margin: 50px 0;
+    background-color: orangered;
+    padding: 75px 20px;
+    color: white;
+}
+
+
+/* leftSide */
+.leftSide .mapImage {
+    background-image: url("../images/furniture.jpg") ;
+    height: 250px;
+}
+
+.leftSide h3 {
+    transform: translateX(-15px);
+}
+
+.leftSide p {
+    margin-bottom: 0;
+}
+
+/* righSide */
+.rightSide img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+}
+
+.rightSide div.flexAligment {
+    /* some code here to make the social media block vertical align at the bottom  */
+}
+
+
+/* =========== end note section =========== */
+.endNoteSection {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.endNoteSection p:first-of-type {
+    text-decoration: underline;
+    color: orangered;
+}
+
+.endNoteSection p span {
+    color: orangered;
+    font-weight: bold;
+}
+
+.endNoteSection .resumeBtn {
+    border: 1px solid orangered;
+    color: orangered;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.endNoteSection .resumeBtn:hover {
+    background-color: orangered;
+    border: 1px solid transparent;
+    color: white
+}
+
+
+/* === Media Queries ==== */
+@media only screen and (max-width: 768px) {
+    .contactSection h3{
+        display: none;
+    }
+
+    .leftSide p {
+        text-align: center;
+        margin: 50px 0;
+    }
+
+    .rightSide img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .rightSide div.col-4 {
+        text-align: center;
+    }
+
+}
