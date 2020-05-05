@@ -28,13 +28,13 @@
             </span>
         </button>
 
-<div class="collapse navbar-collapse" id="mycustomNav">
+        <div class="collapse navbar-collapse" id="mycustomNav">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="/assets/css/index.html">Home</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="/assets/css/cssTraining.html">Css Traning</a>
+                    <a class="nav-link" href="cssTraining.html">Css Traning</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/assets/css/cssTraining.html">Float Activity</a>
@@ -68,19 +68,15 @@
         <div class="row align-items-center customDescriptionSection">
             <div class="col-12 col-md-4 avataCol justify-content-center">
                 <a href="contact.html">
-                    <img class="circleImage" src="" height="auto" width="200">
+                    <img class="circleImage" src="/assets/images/drawing.jpg" height="auto" width="90">
                 </a>
             </div>
             <div class="col-12 col-md-4 biotTxt">
-                <p>I am a Visual Communication Major</p>
-                <p>
-                    hi my name is Raquel Larios<span>blah</span> This is my first year tansferring
-                    blah <span>i love dog!</span> hi my name is blah i love dog!
-                </p>
+                <p> Hi my name is Raquel Larios. I'm a Visual Communication Major.</p>
             </div>
             <div class="col-12 col-md-4 avataCol justify-content-center">
                 <a href="contact.html">
-                    <img class="circleImage" src="/assets/images/flowersred.jpg height="auto" width="200">
+                    <img class="circleImage" src="/assets/images/drawing.jpg" height="auto" width="90">
                 </a>
             </div>
         </div>
@@ -92,17 +88,16 @@
         </section>
 
         <!-- projects card section  -->
-        <!-- Phothography project -->
+        <!-- Doggo project -->
         <div class="row justify-content-center projectGallerySection">
             <div class="col-sm-6 col-md-4 col-lg-3">
                 <div class="card">
                     <img src="/assets/images/dog.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Photohgraphy Project</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
+                        <h5 class="cagrd-title">Dogg Project</h5>
+                        <p class="card-text">Some quick example 
                             card's content.</p>
-                        <a href="#" class="btn projectCardBtn" data-toggle="modal" data-target="#cupcakeModal">View
+                        <a href="#" class="btn projectCardBtn" data-toggle="modal" data-target="#cupcakeeModal">View
                             Project</a>
                     </div>
                 </div>
@@ -120,8 +115,8 @@
                             </button>
                         </div>
                         <div class="modal-body">
-                            <!-- Cupcakes Carousels -->
-                            <div id="cupcakeCarousel" class="carousel slide customProjectCarousel" data-ride="carousel">
+                            <!-- Cupcake Carousels -->
+                            <div id="Carousel" class="carousel slide customProjectCarousel" data-ride="carousel">
                                 <ol class="carousel-indicators">
                                     <li data-target="#cupcakeCarousel" data-slide-to="0" class="active"></li>
                                     <li data-target="#cupcakeCarousel" data-slide-to="1"></li>
@@ -129,13 +124,13 @@
                                 </ol>
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img class="d-block w-100" src="assets/images/cupcake1.jpg" alt="First slide">
+                                        <img class="d-block w-100" src="/assets/images/doog.JPG" alt="First slide">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block w-100" src="assets/images/cupcake2.jpeg" alt="Second slide">
+                                        <img class="d-block w-100" src="/assets/images/doggo.jpg" alt="Second slide">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block w-100" src="assets/images/cupcake3.jpeg" alt="Third slide">
+                                        <img class="d-block w-100" src="/assets/images/doog.JPG" alt="Third slide">
                                         <div class="carousel-caption d-none d-md-block">
                                             <h5>...</h5>
                                             <p>...</p>
@@ -165,12 +160,10 @@
             <!-- Fruit Project -->
             <div class="col-sm-6 col-md-4 col-lg-3">
                 <div class="card">
-                    <img src="assets/images/fruit.jpg" class="card-img-top" alt="...">
+                    <img src="/assets/images/fire.JPG" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Fruit Project</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
+                        <h5 class="card-title">Camp Fire</h5>
+                        <p class="card-text">Some quick example 
                         <a href="#" class="btn projectCardBtn" data-toggle="modal" data-target="#fruitModal">View
                             Project</a>
                     </div>
@@ -189,7 +182,7 @@
                             </button>
                         </div>
                         <div class="modal-body">
-                            <p>this is fruit project that i took multiple fruit pictures......</p>
+                            <p>Camping trip</p>
                             <!-- fruit casousel images -->
                             <div id="fruitCarousel" class="carousel slide customProjectCarousel" data-ride="carousel">
                                 <ol class="carousel-indicators">
@@ -200,7 +193,7 @@
                                 <div class="carousel-inner">
                                     <!-- first image -->
                                     <div class="carousel-item active">
-                                        <img src="assets/images/kiwi.jpeg" class="d-block w-100" alt="...">
+                                        <img src="/assets/images/marshmellow.jpg" class="d-block w-100" alt="...">
                                         <div class="carousel-caption d-none d-md-block">
                                             <h5>Kiwi image</h5>
                                             <p> kiwi kiwi kiwi</p>
@@ -208,7 +201,7 @@
                                     </div>
                                     <!-- second image -->
                                     <div class="carousel-item">
-                                        <img src="assets/images/strawberry.jpeg" class="d-block w-100" alt="...">
+                                        <img src="/assets/images/fire.JPG" class="d-block w-100" alt="...">
                                         <div class="carousel-caption d-none d-md-block">
                                             <h5>strawberry</h5>
                                             <p>strawberry strawberry strawberry</p>
@@ -216,7 +209,7 @@
                                     </div>
                                     <!-- third image -->
                                     <div class="carousel-item">
-                                        <img src="assets/images/apple.jpeg" class="d-block w-100" alt="...">
+                                        <img src="/assets/images/nature.JPG" class="d-block w-100" alt="...">
                                         <div class="carousel-caption d-none d-md-block">
                                             <h5>apple</h5>
                                             <p>apple apple apple</p>
@@ -245,7 +238,7 @@
             <!-- furniture project -->
             <div class="col-sm-6 col-md-4 col-lg-3">
                 <div class="card">
-                    <img src="assets/images/furniture.jpg" class="card-img-top" alt="...">
+                    <img src="/assets/images/drawing.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Furniture Project</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
@@ -256,59 +249,7 @@
                 </div>
             </div>
 
-            <!-- PANDA project -->
-            <div class="col-sm-6 col-md-4 col-lg-3">
-                <div class="card">
-                    <img src="assets/images/panda.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Panda Project</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the
-                            card's content.</p>
-                        <a href="#" class="btn projectCardBtn">View Project</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- husky project -->
-            <div class="col-sm-6 col-md-4 col-lg-3">
-                <div class="card">
-                    <img src="assets/images/huskies.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Huskies Project</h5>
-                        <p class="card-text">
-                            Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn projectCardBtn">View Project</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- beach project -->
-            <div class="col-sm-6 col-md-4 col-lg-3">
-                <div class="card">
-                    <img src="assets/images/beach.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Beach Project</h5>
-                        <p class="card-text">
-                            Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn projectCardBtn">View Project</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- macaroons project -->
-            <div class="col-sm-6 col-md-4 col-lg-3">
-                <div class="card">
-                    <img src="assets/images/macaroons.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Macaroons Project</h5>
-                        <p class="card-text">
-                            Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn projectCardBtn">View Project</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+            
 
         <!-- pseudo classes warm up activity -->
         <!-- <a class="tesla-link" target="_blank" href="https://www.tesla.com/">Tesla website</a> -->
@@ -363,10 +304,6 @@
         });
     </script>
 
-</body>
-
-</html>
-        
 </body>
 
 </html>
