@@ -91,9 +91,10 @@ a.tesla-link:active {
 }
 
 .projectGallerySection img.card-img-top {
+    background-color: rgba(154, 90, 165, 0.383) !important;
     height: 200px;
     width: 100%;
-    background-color: rgba(154, 90, 165, 0.383) !important;;
+    
 }
 
 a.btn.projectCardBtn {
