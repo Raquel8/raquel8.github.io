@@ -3,34 +3,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
-{}
-/* pseudo class exercise */
-a.tesla-link {
-    color: green;
-    font-size: 30px;
-    font-weight: bold;
-    margin: 50px;
-    text-decoration: underline;
 }
 
-a.tesla-link:visited {
-    color: red;
-    text-decoration: underline;
-}
 
-a.tesla-link:hover {
-    background-color: green;
-    color: white;
-    text-decoration: none;
-}
-
-a.tesla-link:active {
-    background-color: red;
-    color: white;
-    border: solid 5px #34af95;
-}
-
-/* ============== BS components components customization ============== */
+    /* ============== BS components components customization ============== */
 
 /* description section */
 .customDescriptionSection {
