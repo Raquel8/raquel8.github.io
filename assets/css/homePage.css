@@ -5,8 +5,40 @@ body {
     background-position-x: center;
 }
 
+.circleImage {
+    border-radius: 45%;
+    border-color: orange;
+    border-style: solid;
+}
 
-    /* ============== BS components components customization ============== */
+
+/* pseudo class exercise */
+a.tesla-link {
+    color: green;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 50px;
+    text-decoration: underline;
+}
+
+a.tesla-link:visited {
+    color: red;
+    text-decoration: underline;
+}
+
+a.tesla-link:hover {
+    background-color: green;
+    color: white;
+    text-decoration: none;
+}
+
+a.tesla-link:active {
+    background-color: red;
+    color: white;
+    border: solid 5px #34af95;
+}
+
+/* ============== BS components components customization ============== */
 
 /* description section */
 .customDescriptionSection {
@@ -24,7 +56,7 @@ body {
 .biotTxt p:first-child {
     font-weight: normal;
     color: yellowgreen;
-    font-size: 20px;
+    font-size: px;
 }
 
 .biotTxt p:nth-child(2) {
